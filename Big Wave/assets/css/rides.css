@@ -1,0 +1,68 @@
+/*configure banner image*/
+.banner {
+    margin-top: 5px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+/*configure paragraph*/
+.attractions {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+/*configure sortable table*/
+table {
+    margin-left:40px;
+    margin-top:10px;
+    border-width: 3px;
+    width: 1130px;
+    height: 315px;
+    text-align: center;
+    white-space: nowrap;
+    padding: 10px 10px 10px 10px;
+}
+  
+tr:nth-child(odd){
+    background-color: lightblue
+}
+tr:nth-child(even){
+    background-color: white
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+td {
+    font-size: 17px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px;
+    font-size: 25px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn a:hover {
+    background-color: white;
+    color: red;
+}

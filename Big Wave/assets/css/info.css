@@ -1,0 +1,76 @@
+h2 {
+    font-size: 16px;
+    color: red;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.info {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+hr {
+    margin-left: 10px;
+    margin-right: 30px;
+    height: 5px;
+}
+
+/* configure contact form container */
+.container {
+	padding: 12px 24px 24px 24px;
+    margin-left: 40px;
+    margin-right: 40px;
+	background: lightblue;
+	border-radius: 4px;
+}
+
+/* Add styles to 'label' selector */
+label {
+	font-size: 15px;
+	margin-left: 12px;
+    font-weight: 700;
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+input[type=text],input[type=email],input[type=date], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+/* Add styles to the submit button */
+input[type=submit] {
+	background: darkblue;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+    font-size: 20px;
+}
+
+/* configure 'hover' property */
+input[type=submit]:hover {
+	background: white;
+    color: red;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.center {
+	text-align: center;
+}

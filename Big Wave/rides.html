@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./assets/css/main.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.png">
+    <title>Big Wave Water Park</title>
+</head>
+
+<body>
+
+<div id="wrapper"> <!--page wrap-->
+
+    <div class="header">
+        <a href="index.html" class="logo"><img src="logo.png" alt="company logo"></a>
+    </div>
+    
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="list-item"><a href="rides.html">Rides & Experiences</a></li>
+            <li class="list-item"><a href="tickets.html">Tickets & Passes</a></li>
+            <li class="list-item"><a href="parkinfo.html">Park Info</a></li>
+        </ul>
+    </nav>
+
+    <!--banner image-->
+    <picture>
+        <source srcset="./assets/images/banner.jpg">
+        <img class="banner" src="./assets/images/banner.jpg" alt="banner image for rides page" class="center">
+    </picture>
+
+    <h1>Special Attractions</h1>
+    
+    <p class="attractions">These special attractions at Big Wave water park are designed to thrill. If you prefer wave pools, rivers, and lounging in the sun,
+        Big Wave is the perfect place to visit. From exciting teens to small kids, there is something here for everyone to enjoy.
+    </p>
+
+    <!--Sortable Table-->
+    <div style="overflow-x:auto;">
+ 
+        <table border="1" id="myTable">
+     
+            <tr>
+                <th><button onclick="sortTable(0)">Sort by Attraction</button></th>
+                <th><button onclick="sortTable(1)">Sort by Adult Pricing</button></th>
+                <th><button onclick="sortTable(2)">Sort by Child Pricing</button></th>
+                <th><button onclick="sortNums(3)">Sort by Operation Time</button></th>  
+            </tr>
+     
+            <tr>
+                <td>Surfing Ride</td>
+                <td>$10.00</td>
+                <td>$5.00</td>
+                <td>1100 - 1600</td>
+            </tr>
+            <tr>
+                <td>Wave Pool</td>
+                <td>$10.00</td>
+                <td>$5.00</td>
+                <td>0900 - 1400</td>
+            </tr>
+            <tr>
+                <td>Tube Slide</td>
+                <td>$15.00</td>
+                <td>$7.00</td>
+                <td>1000 - 1600</td>
+            </tr>
+            <tr>
+                <td>Zip Line</td>
+                <td>$20.00</td>
+                <td>$3.00</td>
+                <td>1200 - 1500</td>
+            </tr>
+            <tr>
+                <td>Surfing Waves</td>
+                <td>$10.00</td>
+                <td>$3.00</td>
+                <td>1400 - 1600</td>
+            </tr>
+            <tr>
+                <td>Heated Pool</td>
+                <td>$15.00</td>
+                <td>$5.00</td>
+                <td>1000 - 1600</td>
+            </tr>
+        </table>
+     
+    </div> <!--end table-->
+
+    <div class="btn">
+        <a class="button" href="tickets.html">Save With Tickets & Passes</a>
+    </div>
+
+    <script src="./assets/js/scripts.js"></script>
+
+    <footer>
+        <small><i>Copyright &copy; 2021 Yasmine M Nash</i></small>
+    </footer>
+    
+</div> <!--end page wrap-->
+
+</body>
+
+</html>
